@@ -1,0 +1,33 @@
+.details, .moreDetails, .wrapper {
+    display: flex;
+}
+
+.moreDetails, .wrapper {
+    flex-direction: column;
+}
+
+.moreDetails {
+    padding-top: 25px;
+}
+
+.wrapper {
+    padding: 0 35px;
+    flex-direction: column;
+}
+
+.image {
+    height: 25em;
+    width: 20em;
+    margin-right: 25px;
+}
+
+.moreDetails ul>li {
+    padding-bottom: 13px;
+}
+
+.moreDetails hr {
+    height: 1px;
+    width: 100%;
+    background-color: #e73b3b;
+    border: none;
+}

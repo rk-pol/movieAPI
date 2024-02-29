@@ -1,0 +1,21 @@
+.header {
+    padding: 15px;
+    width: 167px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header a {
+    font-size: 1.1em;
+    font-style: normal;
+    font-family: cursive;
+    color: black;
+}
+
+.header a:hover {
+    color: rgb(224, 23, 23);
+}
+
+.wrapper {
+    box-shadow: 0px 1px 12px red;
+}

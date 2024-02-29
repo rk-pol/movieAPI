@@ -1,0 +1,39 @@
+.castList, .actorsCard, .wrapper, .cardDetails {
+    display: flex;
+}
+
+.castList {
+    padding: 25px;
+
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.actorsCard {
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 60px;
+    width: 230px;
+}
+
+.actorsCard>img {
+    width: 170px;
+}
+
+.actorsCard:hover {
+    box-shadow: 0px 2px 6px 7px #e17272;
+}
+
+.cardDetails {
+    padding: 10px 0;
+    flex-direction: column;
+}
+
+.cardDetailsName, cardDetailsCharacter {
+    padding-top: 5px;
+}

@@ -1,0 +1,15 @@
+.backLink {
+    padding: 20px;
+    display: flex;
+}
+
+.title {
+    padding-left: 13px;
+    font-size: 1.4em;
+}
+
+.title:hover {
+    cursor: pointer;
+    color: rgb(224, 23, 23);
+    text-decoration: underline;
+}
